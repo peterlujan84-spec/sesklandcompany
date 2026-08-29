@@ -118,7 +118,7 @@
     max-width:520px;
     margin-bottom:34px;
   }
-  .hero-actions{display:flex;gap:16px;flex-wrap:wrap;}
+  .hero-actions{display:flex;gap:14px;flex-wrap:wrap;}
   .btn-primary{
     font-family:'IBM Plex Mono',monospace;
     font-size:0.82rem;
@@ -137,14 +137,15 @@
     font-family:'IBM Plex Mono',monospace;
     font-size:0.82rem;
     letter-spacing:0.04em;
-    color:var(--white);
+    color:#F0D9AE;
     padding:15px 22px;
     text-decoration:none;
-    border:1px solid rgba(255,255,255,0.4);
+    border:1px solid #D8AE6E;
     border-radius:2px;
-    transition:border-color 0.2s ease, background 0.2s ease;
+    transition:border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+    display:inline-block;
   }
-  .btn-ghost:hover{border-color:var(--white);background:rgba(255,255,255,0.08);}
+  .btn-ghost:hover{border-color:#F0D9AE;background:rgba(216,174,110,0.14);color:#F5E4C3;}
 
   /* ---------- SECTION SCAFFOLDING ---------- */
   section{padding:96px 0;}
@@ -384,6 +385,7 @@
       <div class="hero-actions">
         <a class="btn-primary" href="mailto:celltowerslc@gmail.com?subject=Free%20Lease%20Valuation%20Request">Get a Free Lease Valuation</a>
         <a class="btn-ghost" href="#options">See your options</a>
+        <a class="btn-ghost" href="#negotiate">What we negotiate on your behalf</a>
       </div>
     </div>
   </div>
@@ -481,7 +483,7 @@
 
 <div class="divider"></div>
 
-<section>
+<section id="negotiate">
   <div class="wrap term-split">
     <div class="term-img">
       <img src="images/tower-full.png" alt="Cell tower structure viewed from below">
@@ -502,6 +504,10 @@
         <li>
           <span class="num">03</span>
           <div><strong>Reversion clause</strong><span class="desc">Under what circumstances, if any, do the rights come back to you?</span></div>
+        </li>
+        <li>
+          <span class="num">04</span>
+          <div><strong>Legal counsel</strong><span class="desc">Experienced telecom lease counsel protecting your interests, start to finish.</span></div>
         </li>
       </ul>
     </div>
